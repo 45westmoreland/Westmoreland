@@ -1,17 +1,8 @@
 {
-  "name": "hotel-website",
-  "version": "1.0.0",
-  "description": "A hotel website showcasing rooms and amenities",
-  "main": "index.html",
   "scripts": {
-    "dev": "npx serve .",
-    "start": "npx serve .",
-    "build": "echo 'No build process needed for static site'"
+    "start": "servor --reload"
   },
-  "keywords": ["hotel", "website", "static"],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "serve": "^14.2.1"
+  "dependencies": {
+    "servor": "^4.0.2"
   }
 }
